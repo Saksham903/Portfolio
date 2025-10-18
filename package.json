@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
+    "preview": "vite preview --host --port $PORT",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "start": "npx serve -s dist -l 0.0.0.0:$PORT"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@supabase/supabase-js": "^2.57.4",
+    "dotenv": "^17.2.3",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
