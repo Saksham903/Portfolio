@@ -12,8 +12,9 @@ export default function Projects() {
       description: 'AI-powered personal assistant that helps users manage tasks, set reminders, and get personalized recommendations.',
       image: NovaTalkImage,
       tags: ['JavaScript', 'React-Js', 'Tailwind CSS','Node-Js','MongoDB','Express-Js'],
-      github: 'https://github.com/Saksham903/NovaTalk-Your-AI-Personal-AI-Assistant-Is-Here-',
+      github:"https://github.com/Saksham903/NovaTalk-Your-AI-Personal-AI-Assistant-Is-Here-",
       demo: 'https://example.com'
+      
     },
     {
       title: 'E-Commerce Platform',
